@@ -1,0 +1,10 @@
+No matter how wonderful Ruby is, there isn't much you can do with it if it is not installed on your computer system.
+In this chapter we will cover the download and installation of Ruby on Linux, UNIX and Windows.
+
+
+
+
+Ruby is itself written in the C programming language. 
+This means that either a binary distribution for your chosen operating system and hardware platform needs to be installed, or the Ruby sources need to be downloaded and compiled on your target system.
+Whilst compiling Ruby yourself might be fun, it usually makes more sense to simply download and install one of the many pre-built Ruby packages rather than attempt to build your own. 
+In this chapter we will cover installing pre-built Ruby packages on each platform.

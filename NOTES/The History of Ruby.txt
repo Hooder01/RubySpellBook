@@ -1,0 +1,25 @@
+Ruby was created by Yukihiro Matsumoto (more affectionately known as Matz) in Japan starting in 1993. 
+Matz essentially kept Ruby to himself until 1995 when he released it to the public. 
+Ruby quickly gained a following in Matz's home country of Japan in the following years, and finally gained recognition in the rest of the programming world beginning in the year 2000. 
+From that point on Ruby has grown in popularity, particularly because of the popularity of the Ruby on Rails web application development framework.
+
+
+What is Ruby?
+
+Ruby is an object-oriented interpreted scripting language. 
+When we say it is interpreted we mean to say that the Ruby source code is compiled by an interpreter at the point of execution (similar in this regard to JavaScript and PHP). 
+This contrasts with compiled languages such as C or C++ where the code is pre-compiled into a binary format targeted to run on a specific brand of microprocessor.
+
+There are advantages and disadvantages to being an interpreted language. 
+A disadvantage is speed. Because the source code has to be interpreted at runtime this means that it runs slower than an equivalent compiled application.
+ A secondary concern for some is the fact that anyone who uses your application will also be able to see the source code. 
+In the world of open source this is less of a problem than it used to be, but for some proprietary applications this might prove to be unacceptable.
+
+The primary advantage of interpreted languages is that they are portable across multiple operating system platforms and hardware architectures. 
+A compiled application, on the other hand, will only run on the operating system and hardware for which it was compiled. 
+For example, you can take a Ruby application and run it without modification on an Intel system running Linux, an Intel system running Windows, an Intel system running Mac OS X or even a PowerPC system running Mac OS or Linux. 
+
+To do this with a C or C++ application you would need to compile the code on each of the 5 different systems and make each binary image available. With Ruby you just supply the source code.
+
+Another advantage of being interpreted is that we can write and execute Ruby code in real-time directly in the Ruby interpreter. 
+For those who like to try things out in real time (and not everyone does), this is an invaluable feature.
