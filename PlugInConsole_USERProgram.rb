@@ -9,10 +9,11 @@
 # 3.
 # The User must select from vary diffrent power cables (like a needle in a haystack)
 
+# 4.?
+# User should also should need to select two diffrent Video input cables?
 
-Console01 = "Nintendo DS"
-Console02 = "Xbox 360"
-Console03 = "Playstation 4"
-Console04 = "Playstation 5"
-# string data types holding diffrent consoles and their names
+
+stringArray_Consoles = ["Nintendo DS", "Xbox 360", "Playstation 4", "Playstation 5"]
+# Creates Array of strings holding console names
+
 
