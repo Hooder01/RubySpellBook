@@ -21,7 +21,7 @@ stringArray_CablesSTACK = ["DS Powercord" , "360 Powercord" , "P4 and P5 Powerco
 
 HDMICable = "HDMI InputCable"
 AVICable = "AVI InputCable"
-#two more string data types that are two diffrent options for video input
+#two more string data types that are two diffrent options for video input/output
 
 
 
@@ -29,4 +29,20 @@ print "What console would you like to play?\n\n"
 puts stringArray_Consoles[0] 
 puts stringArray_Consoles[1] 
 puts stringArray_Consoles[2]
+puts stringArray_Consoles[3]
 #asks user which console they would like to play on
+
+user_input = gets.chomp
+
+if user_input == "Nintendo DS"
+
+    puts "You Selected #{stringArray_Consoles[0]}"
+
+elsif user_input == "Xbox 360"
+
+    puts "You Selected #{stringArray_Consoles[1]}"
+
+end
+
+
+
