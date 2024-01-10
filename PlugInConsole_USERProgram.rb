@@ -19,10 +19,6 @@ stringArray_Consoles = ["Nintendo DS", "Xbox 360", "Playstation 4", "Playstation
 stringArray_CablesSTACK = ["DS Powercord" , "360 Powercord" , "P4 and P5 Powercord"]
 # Creates another array holding diffrent powercords (playstation 4 and 5 under the same cord)
 
-HDMICable = "HDMI InputCable"
-AVICable = "AVI InputCable"
-#two more string data types that are two diffrent options for video input/output
-
 
 
 print "What console would you like to play?\n\n"
@@ -55,6 +51,17 @@ end
 
 print "Please select the corsponding power cord\n\n"
 
+puts stringArray_CablesSTACK[0] , "\n" , stringArray_CablesSTACK[1] , "\n" , stringArray_CablesSTACK[2]
 
+user_inputPC = gets.chomp
+
+if user_inputPC == "DS Powercord"
+
+    puts "You Selected #{stringArray_CablesSTACK[0]}"
+
+elsif stringArray_Consoles[0] != stringArray_CablesSTACK[0]
+
+   puts "Error! the console and cable don't match!"266
+end
 
 
