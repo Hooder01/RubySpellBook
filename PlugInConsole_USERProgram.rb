@@ -42,7 +42,19 @@ elsif user_input == "Xbox 360"
 
     puts "You Selected #{stringArray_Consoles[1]}"
 
+elsif user_input == "Playstation 4"
+
+    puts "You Selected #{stringArray_Consoles[2]}"
+
+elsif user_input == "Playstation 5"
+
+    puts "You Selected #{stringArray_Consoles[3]}"
 end
+
+
+
+print "Please select the corsponding power cord\n\n"
+
 
 
 
