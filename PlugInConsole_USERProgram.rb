@@ -61,7 +61,32 @@ if user_inputPC == "DS Powercord"
 
 elsif stringArray_Consoles[0] != stringArray_CablesSTACK[0]
 
-   puts "Error! the console and cable don't match!"266
+   puts "Error! the console and cable don't match!"
+
+end 
+
+if user_inputPC == "360 Powercord"
+
+    puts "You Selected #{stringArray_CablesSTACK[1]}"
+
+elsif stringArray_Consoles[1] != stringArray_CablesSTACK[1]
+
+    puts "Error! the console and cable don't match!"
+
 end
+
+
+if user_inputPC == "P4 and P5 Powercord"
+
+    puts "You Selected #{stringArray_CablesSTACK[2]}"
+
+elsif stringArray_Consoles[2] != stringArray_CablesSTACK[2]
+
+    puts "Error! the console and cable don't match!"
+
+end
+
+puts "You have chosen #{user_input} using the #{user_inputPC}
+
 
 
