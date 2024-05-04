@@ -3,9 +3,29 @@
 #'world'  =>  'dlrow'
 #'word'   =>  'drow'
 
-StringReverse1 = "world" #string data type
 
-puts StringReverse1.reverse! #prints string using reverse method 
+def ReverseString(InputString)
+
+    ReverseString = InputString.reverse
+    return ReverseString
+end
+
+SetString = "world"
+Reversed = ReverseString(SetString)
+
+puts Reversed
+
+
+
+
+def StringReverse()
+    StringReverse1 = "world"
+    StringReverse1.reverse!
+end
+
+
+ puts StringReverse1
+
 
 StringReverse2 = "word" # string data type
 
