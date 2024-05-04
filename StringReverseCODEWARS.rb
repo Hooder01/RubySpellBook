@@ -3,15 +3,12 @@
 #'world'  =>  'dlrow'
 #'word'   =>  'drow'
 
-def ReverseString(InputString) # a function/method is defined with argument
+StringReverse1 = "world" #string data type
 
-    StringReversed = InputString.reverse # a new variable "StringReversed" is assgined the argument with the .reverse method attached
+puts StringReverse1.reverse! #prints string using reverse method 
 
-    return StringReversed # the variable is returned
+StringReverse2 = "word" # string data type
 
-end # function ends here
-
-
-
+puts StringReverse2.reverse! #prints string using reverse method 
 
 
