@@ -1,0 +1,31 @@
+"prints" and "puts" are both used to print any form of text to the console however
+
+"puts" or "put" will create a new line in the console while print uses the same line
+
+examples:
+
+put "hello" 
+print "world"
+
+console result:
+
+hello 
+world
+
+---
+
+print "hello world"
+put "I'm name" 
+
+console result:
+
+hello world I'm name
+
+---
+
+a way to get around this:
+
+put "hello world" (will create new line)
+
+print "I'm name"
+
